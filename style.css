@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    color: var(--font-color);
+    font-family: "Ubuntu", sans-serif;    
+  }
+    
+
+  .main{
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding:  1.5rem 2.5rem;
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(128, 116, 116);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  a {
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 50rem;
+  }
+
+  a:hover{
+    background-color: #0062cc;
+
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+
+  #resultado {
+    margin-top: 20px;
+  }
+  
+
+  @media (max-width: 734px) {
+   
+    .main{
+      border: 2px solid black;
+      display: block;
+      margin: 0 auto;
+      max-width: 40rem;
+      padding:  1.5rem 2.5rem;
+      margin-top: 5%;
+      text-align: center;
+      background-color: rgb(128, 116, 116);
+    }
+
+    
+  }
